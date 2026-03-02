@@ -1,3 +1,5 @@
+import "./Cards.css"
+
 const Card = ({ title, producer, rating, imageAlt }) => {
   return (
     <div className="card">
