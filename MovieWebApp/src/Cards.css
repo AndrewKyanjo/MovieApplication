@@ -1,0 +1,34 @@
+/* Simple card styling */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 250px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  color: #666;
+  font-size: 2rem;
+}
+
+.card-title {
+  margin: 0 0 8px 0;
+  font-size: 1.5rem;
+}
+
+.card-producer,
+.card-rating {
+  margin: 4px 0;
+  color: #555;
+}
