@@ -1,13 +1,6 @@
 //import { useState } from "react";
 import "./App.css";
-
-const Card = ({ title }) => {
-  return (
-    <>
-      <h2>{title}</h2>
-    </>
-  );
-};
+import Card from "./Cards";
 
 function App() {
   return (
