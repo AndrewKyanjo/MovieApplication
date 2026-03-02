@@ -1,11 +1,10 @@
-import "./Cards.css"
+import "./Cards.css";
 
-const Card = ({ title, producer, rating, imageAlt }) => {
+const Card = ({ title, producer, rating, imageSrc, imageAlt }) => {
   return (
     <div className="card">
       <div className="card-image">
-        {/* Placeholder for picture */}
-        <span>🎬</span>
+        <img src={imageSrc} alt={imageAlt} />
       </div>
       <h2 className="card-title">{title}</h2>
       <p className="card-producer">Producer: {producer}</p>
