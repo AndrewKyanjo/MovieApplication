@@ -1,11 +1,20 @@
 //import { useState } from "react";
 import "./App.css";
-import Card from "./Cards";
+import Card from "./Cards.jsx";
+import movies from "../data/data.js";
 
 function App() {
   return (
-    <div>
-      < Card title="lion king" />
+    <div className="cards-container">
+      {movies.map((movie) => (
+        <Card
+          title={movie.title}
+          producer={movie.producer}
+          rating={movie.rating}
+          imageSrc={movie.imageSrc}
+          imageAlt={movie.imageAlt}
+        />
+      ))}
     </div>
   );
 }
